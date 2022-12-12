@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
+const Users = require('./users.json');
 
 app.get("/api", (request, response) => {
-    response.json();
+    response.json(Users);
 });
 
 const port = 3001;
