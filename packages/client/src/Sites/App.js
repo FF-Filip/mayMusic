@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import '../CSS/App.css';
-import navBarStyle from '../CSS/NavBar.css';
+import '../Components/CSS/App.css';
+import navBarStyle from '../Components/CSS/NavBar.css';
 
 function App()
   {
