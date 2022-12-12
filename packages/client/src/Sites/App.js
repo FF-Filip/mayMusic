@@ -1,21 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import '../Components/CSS/App.css';
 import navBarStyle from '../Components/CSS/NavBar.css';
+import NavBar from '../Components/NavBar';
 
 function App()
   {
     
 
     return (
-      <div className="navBar">
-        <h2 className="title">mayMusic</h2>
-        <ul>
-          <li><a href=''>Strona Główna</a></li>
-          <li><a href=''>Radio</a></li>
-          <li><a href=''>Mój Profil</a></li>
-          <li><a href=''>Pliki</a></li>
-        </ul>
-      </div>
+      <NavBar />
     );
   }
 
